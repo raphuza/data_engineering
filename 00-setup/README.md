@@ -7,7 +7,15 @@
 - Saber o fluxo básico do Git: `init`, `add`, `commit`, `push`, `branch`.
 - Publicar este repositório no GitHub.
 
-## 📚 Conteúdo
+## 📖 Aulas
+Leia cada aula antes dos exercícios indicados no final dela. As aulas explicam os conceitos com exemplos executáveis, usando dados diferentes dos exercícios.
+
+| # | Aula |
+|---|------|
+| 00.1 | [Terminal, Python e ambientes virtuais](aulas/01-terminal-python-venv.md) |
+| 00.2 | [Git e GitHub](aulas/02-git-e-github.md) |
+
+## 📚 Tópicos do módulo
 1. **Terminal**: PowerShell ou Git Bash. Navegar (`cd`, `ls`/`dir`), criar pastas e arquivos.
 2. **Python 3.12+** instalado pelo site oficial (marcar *Add to PATH*). Verificar com `python --version`.
 3. **Ambientes virtuais**: `python -m venv .venv` e ativação (`.venv\Scripts\activate`). Por que nunca instalar pacotes no Python global.

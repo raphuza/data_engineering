@@ -1,0 +1,8 @@
+id_venda;data;cliente;uf;produto;categoria;qtd;preco
+1;2024-01-05;Ana;SP;Python Fluente;Programação;1;189,90
+2;2024-01-05;Bruno;rj;Dom Casmurro;Literatura;2;29,90
+3;2024-01-20;Carla;SP;Python Fluente;Programação;1;189,90
+4;2024-02-02;Ana;SP;O Hobbit;Literatura;1;54,50
+5;2024-02-15;Diego;MG ;SQL para Análise;Programação;3;99,00
+5;2024-02-15;Diego;MG ;SQL para Análise;Programação;3;99,00
+6;2024-02-28;Elisa;;Dom Casmurro;Literatura;1;

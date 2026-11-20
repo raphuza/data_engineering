@@ -40,7 +40,7 @@ Todo o código deste repositório é escrito por mim, módulo a módulo, seguind
 
 **Total estimado:** ~200 horas (≈ 8 meses a 6h/semana).
 
-⚡ = módulo acelerado: já tenho base sólida em Python e sou especialista em SQL, então esses módulos focam só no que é específico de engenharia de dados.
+⚡ = módulo acelerado: as cargas consideram quem já tem base em Python e SQL. Quem está começando deve reservar mais tempo para eles, e as aulas de cada módulo explicam os conceitos do zero.
 
 ## 📅 Cronograma (6h/semana)
 
@@ -71,10 +71,10 @@ Legenda de status: ⬜ não iniciado · 🟨 em andamento · ✅ concluído
 
 ## 🎯 Como esta trilha funciona
 
-1. **Cada módulo tem um `README.md`** com objetivos, conteúdo, exercícios e o projeto prático.
+1. **Cada módulo tem um `README.md`** com objetivos, exercícios e o projeto prático, e uma pasta **`aulas/`** com explicações e exemplos de código para quem está começando.
 2. **Os exercícios ficam em `exercicios/`** e o projeto em `projeto/`. Eu escrevo todo o código.
 3. **Ciclo de estudo por módulo:**
-   1. Ler o conteúdo e a documentação indicada.
+   1. Ler as aulas do módulo e rodar os exemplos.
    2. Resolver os exercícios (sem copiar soluções prontas).
    3. Pedir revisão do código e refatorar.
    4. Construir o projeto do módulo.
@@ -101,7 +101,8 @@ data_engineering/
 ├── data/                  ← dados locais (não versionados)
 ├── 00-setup/
 ├── 01-python/
-│   ├── README.md          ← objetivos, conteúdo, exercícios, projeto
+│   ├── README.md          ← objetivos, exercícios, projeto
+│   ├── aulas/             ← explicações e exemplos
 │   ├── exercicios/
 │   └── projeto/
 ├── 02-pandas/

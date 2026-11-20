@@ -7,8 +7,19 @@
 - Entender tipos de dados, nulos, datas e performance básica.
 - Conhecer o formato Parquet e por que ele é o padrão em engenharia de dados.
 
-## 📚 Conteúdo
-> Como você domina SQL, pense em cada operação do Pandas como o equivalente de uma consulta (`merge` = `JOIN`, `groupby` = `GROUP BY`, `rank`/`shift` = window functions). O foco aqui é o que o SQL não resolve tão bem: limpeza de arquivos bagunçados, tipos, memória e formatos.
+## 📖 Aulas
+Leia cada aula antes dos exercícios indicados no final dela. As aulas explicam os conceitos com exemplos executáveis, usando dados diferentes dos exercícios.
+
+| # | Aula |
+|---|------|
+| 02.1 | [Fundamentos: DataFrame, leitura e seleção](aulas/01-fundamentos.md) |
+| 02.2 | [Limpeza: nulos, duplicados, tipos, textos e datas](aulas/02-limpeza.md) |
+| 02.3 | [Transformação e agregação](aulas/03-transformacao-e-agregacao.md) |
+| 02.4 | [Junções: merge e concat](aulas/04-juncoes.md) |
+| 02.5 | [Formatos de arquivo e performance](aulas/05-formatos-e-performance.md) |
+
+## 📚 Tópicos do módulo
+> 💡 Se você já conhece SQL, pense em cada operação do Pandas como o equivalente de uma consulta (`merge` = `JOIN`, `groupby` = `GROUP BY`, `rank`/`shift` = window functions). O foco aqui é o que o SQL não resolve tão bem: limpeza de arquivos bagunçados, tipos, memória e formatos.
 
 1. `Series` e `DataFrame`, `read_csv` com parâmetros (`sep`, `dtype`, `parse_dates`, `usecols`).
 2. Seleção: `loc`, `iloc`, filtros booleanos, `query`.

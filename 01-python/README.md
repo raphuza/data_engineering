@@ -7,9 +7,22 @@
 - Ler e escrever arquivos (CSV, JSON) sem bibliotecas externas.
 - Escrever código organizado em funções e módulos, com tipagem, logging e testes.
 
-> Você já tem bom conhecimento de Python, então pule o que for básico. Os exercícios 1 a 3 são um aquecimento rápido (faça em uma sessão). O foco está nos itens marcados com ⭐, que são os que mais aparecem em código de pipeline.
+> ⚡ **Já programa em Python?** Os exercícios 1 a 3 são um aquecimento rápido (uma sessão). **Está começando?** Leia as aulas com calma e reserve mais tempo para o módulo; um bom complemento é o [tutorial oficial](https://docs.python.org/pt-br/3/tutorial/). O foco está nos itens marcados com ⭐, que são os que mais aparecem em código de pipeline.
 
-## 📚 Conteúdo
+## 📖 Aulas
+Leia cada aula antes dos exercícios indicados no final dela. As aulas explicam os conceitos com exemplos executáveis, usando dados diferentes dos exercícios.
+
+| # | Aula |
+|---|------|
+| 01.1 | [Estruturas de dados, funções e decorators](aulas/01-estruturas-e-funcoes.md) |
+| 01.2 | [Arquivos: pathlib, CSV e JSON](aulas/02-arquivos.md) |
+| 01.3 | [Tratamento de erros e logging](aulas/03-erros-e-logging.md) |
+| 01.4 | [Iteradores e geradores](aulas/04-geradores.md) |
+| 01.5 | [Type hints e dataclasses](aulas/05-tipagem-e-dataclasses.md) |
+| 01.6 | [Módulos, pacotes, CLI e pyproject.toml](aulas/06-modulos-pacotes-cli.md) |
+| 01.7 | [Testes com pytest](aulas/07-testes-pytest.md) |
+
+## 📚 Tópicos do módulo
 1. Revisão rápida: estruturas de dados, compreensões, `*args`/`**kwargs`.
 2. Funções como parâmetro, `functools`, decorators ⭐
 3. Leitura e escrita de arquivos: `open`, `with`, módulos `csv`, `json`, `pathlib`.

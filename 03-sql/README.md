@@ -2,7 +2,7 @@
 
 ⏱️ ~10h · ⚡ módulo acelerado · [⬅ Voltar ao roadmap](../README.md)
 
-> Você é especialista em SQL, então este módulo não ensina SQL. Ele foca no que muda quando o SQL vira parte de um pipeline: modelagem para analytics, cargas incrementais, idempotência e performance. Também é onde o Python passa a conversar com o banco.
+> ⚡ Este módulo parte do princípio de que você já escreve SQL (joins, `GROUP BY`, CTEs, window functions). Se ainda não, faça antes o [SQLBolt](https://sqlbolt.com/) e o [Mode SQL Tutorial](https://mode.com/sql-tutorial/) (~10h a mais). O módulo foca no que muda quando o SQL vira parte de um pipeline: modelagem para analytics, cargas incrementais, idempotência e performance. Também é onde o Python passa a conversar com o banco.
 
 ## 🎯 Objetivos
 - Modelar um data warehouse dimensional com decisões justificadas (granularidade, chaves, SCD).
@@ -10,7 +10,18 @@
 - Diagnosticar e otimizar consultas e tabelas grandes no PostgreSQL.
 - Integrar Python e banco de forma segura e eficiente.
 
-## 📚 Conteúdo
+## 📖 Aulas
+Leia cada aula antes dos exercícios indicados no final dela. As aulas explicam os conceitos com exemplos executáveis, usando dados diferentes dos exercícios.
+
+| # | Aula |
+|---|------|
+| 03.1 | [Modelagem dimensional](aulas/01-modelagem-dimensional.md) |
+| 03.2 | [Dimensões que mudam (SCD)](aulas/02-scd.md) |
+| 03.3 | [Cargas full, incrementais e idempotentes](aulas/03-cargas-idempotentes.md) |
+| 03.4 | [Otimização no PostgreSQL](aulas/04-otimizacao.md) |
+| 03.5 | [Python e banco de dados (e um pouco de DuckDB)](aulas/05-python-e-banco.md) |
+
+## 📚 Tópicos do módulo
 1. **Modelagem dimensional (Kimball)**: processo de negócio → granularidade → dimensões → fatos. Fatos transacionais, *snapshot* periódico e acumulativo.
 2. **Chaves**: naturais vs. substitutas (*surrogate keys*), *hash keys*.
 3. **SCD tipo 1 e tipo 2**: implementação com `MERGE` / `INSERT ... ON CONFLICT`.
